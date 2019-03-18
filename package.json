@@ -1,0 +1,23 @@
+{
+  "name": "temp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "webpack-dev-server --open",
+    "build": "webpack --inline --progress"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "html-loader": "^0.5.5",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
